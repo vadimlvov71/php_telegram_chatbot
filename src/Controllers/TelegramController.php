@@ -16,7 +16,7 @@ class TelegramController extends Controller
 	
 	//private $chat_id = "1971625323";
 	public function actionChatbot(){
-		$token = "7010315744:AAH-0-3XiB6tXhyRwh17ei_-BdmA8HI8mt4";
+		$token = XXXXXXXXXXXXXXXXXXXXXXXX";
 		//$telegram_api_url ="";
 
 		$data = json_decode(file_get_contents('php://input'), true); // передаём в переменную $result полную информацию о сообщении пользователя
